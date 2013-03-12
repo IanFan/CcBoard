@@ -8,6 +8,8 @@
 
 #import "Board.h"
 
+#define BOARD_TEXTURE_PNG @"board_frame.png"
+
 #pragma mark - BOARDUNIT
 
 @implementation BoardUnit
@@ -26,7 +28,7 @@
   _parentLayer = parentL;
   self.boardType = bType;
   
-  NSString *pngString = @"board_frame.png";
+  NSString *pngString = BOARD_TEXTURE_PNG;
   _textureSprite = [CCSprite spriteWithFile:pngString];
   _textureSprite.position = _position;
   
@@ -54,6 +56,17 @@
 
 @implementation Board
 @synthesize position = _position;
+
+#pragma mark - Control
+
+-(void)changeBoardWithEditXAmount:(int)editX editYAmount:(int)editY {
+  _xAmount = MAX(_xAmount+editX, 1);
+  _yAmount = MAX(_yAmount+editY, 1);
+  
+  [self setupBoardUnitArray];
+}
+
+#pragma mark - Setup
 
 -(void)setupBoardWithParentLayer:(CCLayer *)parentL position:(CGPoint)pos maxLength:(float)maxLen xOrderAmount:(int)xAmount yOrderAmount:(int)yAmount {
   _parentLayer = parentL;
@@ -96,6 +109,7 @@
 }
 
 -(void)dealloc {
+  [self.boardUnitArray release], self.boardUnitArray = nil;
 	[super dealloc];
 }
 

@@ -39,4 +39,8 @@
 @property (nonatomic,retain) NSMutableArray *boardUnitArray;
 @property CGPoint position;
 -(void)setupBoardWithParentLayer:(CCLayer*)parentL position:(CGPoint)pos maxLength:(float)maxLen xOrderAmount:(int)xAmount yOrderAmount:(int)yAmount;
+
+//Control
+-(void)changeBoardWithEditXAmount:(int)editX editYAmount:(int)editY;
+
 @end

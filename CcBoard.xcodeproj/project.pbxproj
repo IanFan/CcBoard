@@ -136,6 +136,10 @@
 		18A86B8C16EDE8A10035BBB2 /* Board.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A86B8B16EDE8A10035BBB2 /* Board.m */; };
 		18A86B8F16EDE8BE0035BBB2 /* BoardLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A86B8E16EDE8BE0035BBB2 /* BoardLayer.m */; };
 		18A86B9216EDE9570035BBB2 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 18A86B9116EDE9570035BBB2 /* Default-568h@2x.png */; };
+		18B9D8B416EEC334005B636F /* minus.png in Resources */ = {isa = PBXBuildFile; fileRef = 18B9D8B216EEC334005B636F /* minus.png */; };
+		18B9D8B516EEC334005B636F /* plus.png in Resources */ = {isa = PBXBuildFile; fileRef = 18B9D8B316EEC334005B636F /* plus.png */; };
+		18B9D8B816EEC72C005B636F /* plus@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 18B9D8B616EEC72C005B636F /* plus@2x.png */; };
+		18B9D8B916EEC72C005B636F /* minus@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 18B9D8B716EEC72C005B636F /* minus@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -406,6 +410,10 @@
 		18A86B8E16EDE8BE0035BBB2 /* BoardLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BoardLayer.m; sourceTree = "<group>"; };
 		18A86B9016EDE91A0035BBB2 /* DefineMacro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DefineMacro.h; sourceTree = "<group>"; };
 		18A86B9116EDE9570035BBB2 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		18B9D8B216EEC334005B636F /* minus.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = minus.png; sourceTree = "<group>"; };
+		18B9D8B316EEC334005B636F /* plus.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = plus.png; sourceTree = "<group>"; };
+		18B9D8B616EEC72C005B636F /* plus@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "plus@2x.png"; sourceTree = "<group>"; };
+		18B9D8B716EEC72C005B636F /* minus@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "minus@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -475,6 +483,10 @@
 				18A86B8A16EDE8A10035BBB2 /* Board.h */,
 				18A86B8B16EDE8A10035BBB2 /* Board.m */,
 				18A86B8816EDE88F0035BBB2 /* board_frame.png */,
+				18B9D8B216EEC334005B636F /* minus.png */,
+				18B9D8B316EEC334005B636F /* plus.png */,
+				18B9D8B616EEC72C005B636F /* plus@2x.png */,
+				18B9D8B716EEC72C005B636F /* minus@2x.png */,
 				18A86A0316EDE76C0035BBB2 /* Resources */,
 				18A86A1D16EDE76C0035BBB2 /* libs */,
 				18A86B7616EDE76F0035BBB2 /* Supporting Files */,
@@ -910,6 +922,10 @@
 				18A86B5A16EDE76F0035BBB2 /* ChangeLog in Resources */,
 				18A86B8916EDE88F0035BBB2 /* board_frame.png in Resources */,
 				18A86B9216EDE9570035BBB2 /* Default-568h@2x.png in Resources */,
+				18B9D8B416EEC334005B636F /* minus.png in Resources */,
+				18B9D8B516EEC334005B636F /* plus.png in Resources */,
+				18B9D8B816EEC72C005B636F /* plus@2x.png in Resources */,
+				18B9D8B916EEC72C005B636F /* minus@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
