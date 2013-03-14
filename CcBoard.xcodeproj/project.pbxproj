@@ -408,7 +408,6 @@
 		18A86B8B16EDE8A10035BBB2 /* Board.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Board.m; sourceTree = "<group>"; };
 		18A86B8D16EDE8BE0035BBB2 /* BoardLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BoardLayer.h; sourceTree = "<group>"; };
 		18A86B8E16EDE8BE0035BBB2 /* BoardLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BoardLayer.m; sourceTree = "<group>"; };
-		18A86B9016EDE91A0035BBB2 /* DefineMacro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DefineMacro.h; sourceTree = "<group>"; };
 		18A86B9116EDE9570035BBB2 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		18B9D8B216EEC334005B636F /* minus.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = minus.png; sourceTree = "<group>"; };
 		18B9D8B316EEC334005B636F /* plus.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = plus.png; sourceTree = "<group>"; };
@@ -479,7 +478,6 @@
 				18A86B8116EDE76F0035BBB2 /* IntroLayer.m */,
 				18A86B8D16EDE8BE0035BBB2 /* BoardLayer.h */,
 				18A86B8E16EDE8BE0035BBB2 /* BoardLayer.m */,
-				18A86B9016EDE91A0035BBB2 /* DefineMacro.h */,
 				18A86B8A16EDE8A10035BBB2 /* Board.h */,
 				18A86B8B16EDE8A10035BBB2 /* Board.m */,
 				18A86B8816EDE88F0035BBB2 /* board_frame.png */,

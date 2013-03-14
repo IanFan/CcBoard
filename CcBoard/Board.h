@@ -8,9 +8,13 @@
 
 #import <Foundation/Foundation.h>
 #import "cocos2d.h"
-#import "DefineMacro.h"
 
-#pragma mark - BOARDUNIT
+typedef enum {
+  BoardType_None,
+  BoardType_FlatGround,
+} BoardType;
+
+#pragma mark - BOARD_UNIT
 
 @interface BoardUnit : NSObject
 {

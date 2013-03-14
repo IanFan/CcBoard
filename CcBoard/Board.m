@@ -8,7 +8,7 @@
 
 #import "Board.h"
 
-#define BOARD_TEXTURE_PNG @"board_frame.png"
+#define BOARD_TEXTURE_DEFAULT @"board_frame.png"
 
 #pragma mark - BOARDUNIT
 
@@ -28,7 +28,12 @@
   _parentLayer = parentL;
   self.boardType = bType;
   
-  NSString *pngString = BOARD_TEXTURE_PNG;
+  NSString *pngString = @"";
+  switch (_boardType) {
+//    case BoardType_FlatGround: pngString = BOARD_TEXTURE_DEFAULT; break;
+    default: pngString = BOARD_TEXTURE_DEFAULT; break;
+  }
+  
   _textureSprite = [CCSprite spriteWithFile:pngString];
   _textureSprite.position = _position;
   
@@ -109,7 +114,7 @@
 }
 
 -(void)dealloc {
-  [self.boardUnitArray release], self.boardUnitArray = nil;
+  if (self.boardUnitArray != nil) [_boardUnitArray release], self.boardUnitArray = nil;
 	[super dealloc];
 }
 
